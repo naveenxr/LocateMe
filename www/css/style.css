@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/* SPLASH */
+.splash {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.splash-logo {
+    width: 150px;
+    animation: zoomIn 1.2s ease;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.6);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* INTRO */
+.intro {
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 30px;
+    background: white;
+    color: #5a4fcf;
+    font-size: 16px;
+    font-weight: 600;
+}

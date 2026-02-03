@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.locateme"
+    version="1.0.0"
+    xmlns="http://www.w3.org/ns/widgets"
+    xmlns:cdv="http://cordova.apache.org/ns/1.0">
+
+    <name>LocateMe</name>
+
+    <description>
+        Get your exact location with one click.
+    </description>
+
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Apache Cordova Team
+    </author>
+
+    <content src="index.html" />
+
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+
+    <!-- ANDROID SDK CONFIG (ONLY ONCE) -->
+    <!-- ANDROID SDK CONFIG (ONLY ONCE) -->
+    <preference name="android-minSdkVersion" value="22" />
+    <preference name="android-targetSdkVersion" value="35" />
+    <preference name="android-compileSdkVersion" value="35" />
+
+    <!-- PLUGINS -->
+    <plugin name="cordova-plugin-geolocation" />
+    <plugin name="cordova.plugins.diagnostic" />
+
+</widget>
